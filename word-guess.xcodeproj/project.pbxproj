@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620BCDF91E853BD200209743 /* profession.m in Sources */ = {isa = PBXBuildFile; fileRef = 620BCDF81E853BD200209743 /* profession.m */; };
 		626E5D1F1E84B78700D26948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E5D1E1E84B78700D26948 /* main.m */; };
 		626E5D221E84B78700D26948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E5D211E84B78700D26948 /* AppDelegate.m */; };
 		626E5D251E84B78700D26948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E5D241E84B78700D26948 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		620BCDF71E853BD200209743 /* profession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profession.h; sourceTree = "<group>"; };
+		620BCDF81E853BD200209743 /* profession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profession.m; sourceTree = "<group>"; };
 		626E5D1A1E84B78600D26948 /* word-guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "word-guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626E5D1E1E84B78700D26948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		626E5D201E84B78700D26948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				626E5D211E84B78700D26948 /* AppDelegate.m */,
 				626E5D231E84B78700D26948 /* ViewController.h */,
 				626E5D241E84B78700D26948 /* ViewController.m */,
+				620BCDF71E853BD200209743 /* profession.h */,
+				620BCDF81E853BD200209743 /* profession.m */,
 				626E5D261E84B78700D26948 /* Main.storyboard */,
 				626E5D291E84B78700D26948 /* Assets.xcassets */,
 				626E5D2B1E84B78700D26948 /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 				626E5D251E84B78700D26948 /* ViewController.m in Sources */,
 				626E5D221E84B78700D26948 /* AppDelegate.m in Sources */,
 				626E5D1F1E84B78700D26948 /* main.m in Sources */,
+				620BCDF91E853BD200209743 /* profession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,7 @@
 				626E5D331E84B78700D26948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
